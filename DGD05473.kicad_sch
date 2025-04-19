@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "HIGH-FREQUENCY HIGH-SIDE AND LOW-SIDE GATE DRIVER")
-		(date "2025-04-14")
+		(date "2025-04-19")
 		(rev "1")
 		(company "astroelectronic@")
 		(comment 4 "AE01014473")
@@ -5147,7 +5147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "497b2f2b-a35c-4d66-be52-7392b0c05b6a")
-		(property "Reference" "V6"
+		(property "Reference" "V4"
 			(at 54.61 133.2201 0)
 			(effects
 				(font
@@ -5229,7 +5229,7 @@
 		(instances
 			(project "DGD05473"
 				(path "/79bac4d6-c0b7-44a0-a7ef-b66f4209da8b"
-					(reference "V6")
+					(reference "V4")
 					(unit 1)
 				)
 			)
@@ -6665,7 +6665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8923686f-b120-4148-92b7-3dfb4058b5f8")
-		(property "Reference" "V4"
+		(property "Reference" "V2"
 			(at 54.61 57.0201 0)
 			(effects
 				(font
@@ -6747,7 +6747,7 @@
 		(instances
 			(project "DGD05473"
 				(path "/79bac4d6-c0b7-44a0-a7ef-b66f4209da8b"
-					(reference "V4")
+					(reference "V2")
 					(unit 1)
 				)
 			)
@@ -6763,7 +6763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "895e4fff-7937-4484-a8dc-f03077d25a08")
-		(property "Reference" "V5"
+		(property "Reference" "V3"
 			(at 41.91 145.9201 0)
 			(effects
 				(font
@@ -6845,7 +6845,7 @@
 		(instances
 			(project "DGD05473"
 				(path "/79bac4d6-c0b7-44a0-a7ef-b66f4209da8b"
-					(reference "V5")
+					(reference "V3")
 					(unit 1)
 				)
 			)
@@ -7853,7 +7853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C2012X7S2A105K125AE_p"
+		(property "Value" "ATLI_860080772001_10uF"
 			(at 257.81 33.0199 0)
 			(effects
 				(font
@@ -7889,7 +7889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "c2012x7s2a105k125ae_p.mod"
+		(property "Sim.Library" "ATLI_860080772001_10uF.lib"
 			(at 254 31.75 0)
 			(effects
 				(font
@@ -7898,7 +7898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "C2012X7S2A105K125AE_p"
+		(property "Sim.Name" "ATLI_860080772001_10uF"
 			(at 254 31.75 0)
 			(effects
 				(font
@@ -7916,7 +7916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=n1 2=n2"
+		(property "Sim.Pins" "1=1 2=2"
 			(at 254 31.75 0)
 			(effects
 				(font
@@ -7950,7 +7950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c046b586-6df2-4c75-b330-769b2d269071")
-		(property "Reference" "V1"
+		(property "Reference" "V5"
 			(at 105.41 176.4001 0)
 			(effects
 				(font
@@ -8032,7 +8032,7 @@
 		(instances
 			(project ""
 				(path "/79bac4d6-c0b7-44a0-a7ef-b66f4209da8b"
-					(reference "V1")
+					(reference "V5")
 					(unit 1)
 				)
 			)
@@ -8658,7 +8658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d40ba3e6-f16e-4a00-8789-ca2516737b9d")
-		(property "Reference" "V2"
+		(property "Reference" "V6"
 			(at 118.11 176.4001 0)
 			(effects
 				(font
@@ -8740,7 +8740,7 @@
 		(instances
 			(project "DGD05473"
 				(path "/79bac4d6-c0b7-44a0-a7ef-b66f4209da8b"
-					(reference "V2")
+					(reference "V6")
 					(unit 1)
 				)
 			)
@@ -9886,7 +9886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbd1248d-7907-4e97-a472-e4f411e6fcc0")
-		(property "Reference" "V3"
+		(property "Reference" "V1"
 			(at 41.91 69.7201 0)
 			(effects
 				(font
@@ -9968,7 +9968,7 @@
 		(instances
 			(project "DGD05473"
 				(path "/79bac4d6-c0b7-44a0-a7ef-b66f4209da8b"
-					(reference "V3")
+					(reference "V1")
 					(unit 1)
 				)
 			)

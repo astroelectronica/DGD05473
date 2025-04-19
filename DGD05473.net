@@ -33,7 +33,7 @@
 *
 *PULSE(0 {VPUL} {DELAY_Q1} {TR} {TF} {DUTY_Q1} {CYCLE}
 .param DELAY_Q1=0
-.param PERCENT_Q1=35
+.param PERCENT_Q1=25
 .param DUTY_Q1=(PERCENT_Q1/100)*CYCLE
 .param X_BASE_Q1=(CYCLE*REPEAT)+DELAY_Q1
 *
@@ -43,11 +43,11 @@
 *
 *PULSE(0 {VPUL} {DELAY_Q3} {TR} {TF} {DUTY_Q3} {CYCLE}
 .param DELAY_Q3=DELAY_Q2
-.param DUTY_Q3=DUTY_Q1*2
+.param DUTY_Q3=DUTY_Q2
 *
 *PULSE(0 {VPUL} {DELAY_Q4} {TR} {TF} {DUTY_Q4} {CYCLE}
 .param DELAY_Q4=DELAY_Q1
-.param DUTY_Q4=DUTY_Q3
+.param DUTY_Q4=DUTY_Q1
 *
 *transient response
 .tran 0 {X_BASE_Q1} 0 uic startup
